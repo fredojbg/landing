@@ -11,11 +11,14 @@
 	box-sizing: border-box;
 
 }
+html {
+	scroll-behavior: smooth;
+}
+body {
+	// background-image: url(../img/fondo.jpg);
+	// background-repeat: no-repeat;
+	// background-size: auto;
 
-body{
-	background: $purpura;
-	// max-width: 1200px;
-	// width: 100%;
-	// margin: 0 auto;
+	font-size: 20px;
 
 }
