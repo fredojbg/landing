@@ -8,6 +8,7 @@ Colores utilizados
     Blue Acuarela: #12CBC4;
     Purpura: #6F1E51;
     Red Suave: #ED4C67; 
+
 ===========================================
 
 Funetes Utilizadas
@@ -15,15 +16,21 @@ Funetes Utilizadas
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
     font-family: 'Roboto', sans-serif;
+
 ===========================================
 */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+//Variables de Colores
+$purpura:  #6F1E51;
+$gris-suave: #eeeeee;
+$acuarela: #12CBC4;
+$rojo-suave: #ED4C67;
 
-body{
-    background: #eee;
-}
+//Variebles de Letras
+$size: 14px;
+$lineHeight: 28px;
+$decoration: none;
+$uppercase: uppercase;
+$family: 'Roboto', sans-serif;
+
+
