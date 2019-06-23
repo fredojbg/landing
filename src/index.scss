@@ -1,0 +1,29 @@
+/*
+Colores utilizados
+===========================================
+    https://flatuicolors.com/palette/nl
+
+    Gris: #eee;
+    Blue: #0652DD;
+    Blue Acuarela: #12CBC4;
+    Purpura: #6F1E51;
+    Red Suave: #ED4C67; 
+===========================================
+
+Funetes Utilizadas
+===========================================
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+===========================================
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eee;
+}
