@@ -2,9 +2,6 @@ import React from 'react';
 
 // Importando los estilos
 import './scss/index.scss';
-import './scss/header/index.scss';
-import './scss/main/index.scss';
-import './scss/footer/index.scss';
 
 // Importando los componentes
 import Header from './components/header/header';

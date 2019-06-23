@@ -1,4 +1,59 @@
-nav{
-    background: black;
-    color: white;
+nav {
+  display: flex;
+  background: $gris-suave;
+  justify-content: space-between;
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    
+    ul,li {
+      display: flex;
+      margin: 10px;
+      
+      a{
+        color: black;
+        text-decoration: $decoration;
+      }
+    }
+  }
+  .brand {
+    display: flex;
+    // align-content: center;
+    justify-content: center;
+
+      &__logo {
+        width: 5%;
+      }
+
+  }
+  .login {
+
+    ul,li {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+
+      a {
+        color: black;
+        text-decoration: $decoration;
+      }
+      
+      li:nth-child(2) {
+        a{
+          border-radius: 18px;
+          border: 1px solid $purpura;
+          color: $purpura;
+          align-self: center;
+          line-height: 24px;
+          max-width: 120px;
+          width: 100%;
+          min-height: 36px;
+          height: 100%;
+          font-size: $size;
+          padding: 6px 12px;
+        }
+      }
+    }
+  }
 }
